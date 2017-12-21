@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jinhui.tinkersample.MainActivity">
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入名字"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击显示名字按钮,在没有修复前,点击该按钮,app会crash,修复后不会crash"/>
+
+    <Button
+        android:id="@+id/btn_show_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示名字"/>
+
+    <Button
+        android:id="@+id/btn_load_patch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载patch"/>
+
+
+
+</LinearLayout>
